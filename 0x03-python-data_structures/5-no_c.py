@@ -2,10 +2,9 @@
 
 
 def no_c(my_string):
-    new_str = ''
-    for ch in my_string:
-        if ch == 'c' or ch == 'C':
-            new_str += ''
-        else:
-            new_str += ch
-    return new_str
+    string_list = list(my_string)
+    for i in range(len(string_list)):
+        if string_list[i] == 'c' or string_list[i] == 'C':
+            string_list[i] = ""
+    my_string = "".join(string_list)
+    return my_string

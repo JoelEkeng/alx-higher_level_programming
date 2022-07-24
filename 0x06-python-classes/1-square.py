@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-"""
-    This module creates an empty class Square that defines a square
-"""
+
+
+"""Define a class Square."""
 
 
 class Square:
-    """
-    The class Square uses the size argument to create a square
-    The __init__ method create a private instance variable size
-        Args:
-            size (int): Takes an integer."""
+    """Represent a square."""
+
     def __init__(self, size):
+        """Initialize a new Square."""
         self.__size = size

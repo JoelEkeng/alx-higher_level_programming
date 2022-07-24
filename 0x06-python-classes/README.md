@@ -1,3 +1,1 @@
-# 0x06-python-classes
-
-## Tasks
+# 0x06. Python - Classes and Objects #
